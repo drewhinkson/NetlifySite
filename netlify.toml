@@ -1,0 +1,6 @@
+# Proxy Redirect
+[[redirects]]
+  from = "/netlify/anything/*"
+  to = "https://www.google.com/search?q=:splat"
+  status = 200
+  force = true
