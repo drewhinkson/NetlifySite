@@ -13,7 +13,7 @@ export default function Page() {
             <li><a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer">Next.js Documentation</a></li>
             <li><a href="https://v2.tailwindcss.com/docs" target="_blank" rel="noopener noreferrer">Tailwind CSS Documentation</a></li>
           </ul> 
-          <p className="mt-4">One challenge I had was dealing with state management. I received this error: "You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default." After some googling, I learned that declaring "use client" in the top tells Next.js that the component relies on client-side features.</p>
+          <p className="mt-4">One challenge I had was dealing with state management. I received this error: 'You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default.' After some googling, I learned that declaring 'use client' in the top tells Next.js that the component relies on client-side features.</p>
         </>
       ),
     },
