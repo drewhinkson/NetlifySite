@@ -108,10 +108,9 @@ export default function Page () {
           <code>
               # HTTP 301 Redirect<br />
               [[redirects]]<br />
-              from = "/netlify/anything/:searchterm"<br />
+              from = "/netlify/:searchterm"<br />
               to = "https://www.google.com/search?q=:searchterm"<br />
               status = 301<br />
-              force = true
           </code>
     <p className = "mt-5"> Here's a link to the <a href = "https://github.com/drewhinkson/NetlifySite/blob/master/netlify.toml" className="text-blue-600 hover:text-blue-800"> netlify.toml</a> for the proxy redirect </p>
   </div>
