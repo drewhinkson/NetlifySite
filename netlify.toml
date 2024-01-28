@@ -1,10 +1,10 @@
 # Proxy Redirect
 [[redirects]]
-from = "/netlify/:query"
-to = "https://www.google.com/search?q=:query"
+from = "/netlify/:searchterm"
+to = "https://www.google.com/search?q=:searchterm"
 status = 200
 force = true
 
- [build]
-  functions = "functions"
+[build]
+functions = "functions"
 
