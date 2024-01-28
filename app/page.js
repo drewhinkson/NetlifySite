@@ -25,7 +25,7 @@ export default function Page () {
         <p className="mt-4"> I really enjoy using Netlify(loved it actually). A couple things that really stood out was the ease of deployment, and the Continuous deplyoment features Netlify has,
     having just to simply push to my branch and know I don't have to make any changes on the Netlify side is really awesome. Another thing I really enjoyed was was the deploy logs. It gave a lot of instructions, and was easily readable. </p> 
     
-    <p className="mt-5">Some constructive criticism would be the function logs. Looking at them, it seems to only give the duration, and memory usage for example: <pre>`6fc54b17 Duration: 50.33 ms	Memory Usage: 78 MB`.</pre>I would like to see some more details in there, maybe even the request body if possible? A special mention for the documentation,
+    <p className="mt-5">Some constructive criticism would be the function logs. Looking at them, it seems to only give the duration, and memory usage for example: <pre>`6fc54b17 Duration: 50.33 ms	Memory Usage: 78 MB`.</pre>I would like to see some more details in there, maybe even the request body if possible? I realize it also outputs any console.logs as well per the <a href= "https://docs.netlify.com/functions/logs/#log-contents" className="text-blue-600 hover:text-blue-800">documentation</a> however A special mention for the documentation,
      which for this sake I'll consider a feature. I'm really impressed by how well constructed the documentation is, and how easy it is to follow. </p>
      </div>
       )
